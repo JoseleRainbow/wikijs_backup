@@ -2,7 +2,7 @@
 title: INDICE Wiki.j_O_s_E_lito
 description: 
 published: true
-date: 2022-01-10T13:53:53.368Z
+date: 2022-01-10T13:56:02.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-09T20:47:45.371Z
@@ -11,7 +11,7 @@ dateCreated: 2022-01-09T20:47:45.371Z
 > This documentation site is running on Wiki.js!
 {.is-success}
 
-  in [*`Markdown`*:link:](https://docs.requarks.io/en/editors/markdown) language
+  in [*`Markdown`*](https://docs.requarks.io/en/editors/markdown) language
 
 
 # Contenido
