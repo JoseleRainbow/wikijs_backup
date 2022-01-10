@@ -2,7 +2,7 @@
 title: Página de Inicio
 description: 
 published: true
-date: 2022-01-10T11:24:02.690Z
+date: 2022-01-10T11:24:08.992Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-09T20:47:45.371Z
