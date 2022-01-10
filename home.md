@@ -2,7 +2,7 @@
 title: INDICE Wiki.j_O_s_E_lito
 description: 
 published: true
-date: 2022-01-10T13:32:43.121Z
+date: 2022-01-10T13:53:53.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-09T20:47:45.371Z
@@ -11,10 +11,14 @@ dateCreated: 2022-01-09T20:47:45.371Z
 > This documentation site is running on Wiki.js!
 {.is-success}
 
+  in [*`Markdown`*:link:](https://docs.requarks.io/en/editors/markdown) language
+
+
 # Contenido
 
-- [Apuntes Cursos Online *Docker, Kubernetes, etc...*](/ApuntesDocker)
-- [ ![spiderman_no_way_home_1.png](/spiderman_no_way_home_1.png=30x30) Comics *Marvel, DC ...*](/)
+- [ :ledger: Apuntes Cursos Online *Docker, Kubernetes, etc...*](/ApuntesDocker)
+- [ :books: Comics *Marvel, DC ...*](/)
+- [ :link: Recopilatorio de links *Cursos Programación, Comics, Cine...*](/)
 {.links-list}
 
-![spiderman_no_way_home_1.png](/spiderman_no_way_home_1.png)
+
