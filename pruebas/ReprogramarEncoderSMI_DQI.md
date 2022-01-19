@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T11:10:13.823Z
+date: 2022-01-19T11:16:16.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -27,7 +27,10 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
    
    
 . Insert the encoder in a free DRIVE-CLiQ port of the SINAMICS S120 drive system.
-. This is now assigned a component number larger than 200. The component number must be               identified, for example, 201.
+. This is now assigned a component number larger than 200. The component number must be               identified, for example, 205.
+
+![2022-01-19_12_11_16-window.png](/2022-01-19_12_11_16-window.png)
+![2022-01-19_12_11_30-window.png](/2022-01-19_12_11_30-window.png)
   
 
 ## :two: **Download the electronic motor data**
@@ -58,7 +61,7 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 
 ·         Then create a subfolder which corresponds to the component number, for example:
 
-          user/sinamics/data/smi\_data\_man/c201(note lower cases!).
+          user/sinamics/data/smi\_data\_man/c205(note lower cases!).
 
 ·         Store the downloaded file(s) in this folder.
 
@@ -69,7 +72,7 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 ·         Set the passwort level required:  
           SINAMICS: Expert || SINUMERIK: manufacturer.
 
-·         Enter the encoder component number, e.g. 201, in the drive parameter `p4690`.
+·         Enter the encoder component number, e.g. 205, in the drive parameter `p4690`.
 
 ·         Select in `p4691`: \[2\] “Load SMI data“ to write data to the encoder.
 
