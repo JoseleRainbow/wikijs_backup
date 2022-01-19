@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T10:01:58.566Z
+date: 2022-01-19T10:29:42.036Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -16,30 +16,34 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 > How can I reprogram an empty or deleted DRIVE-CLiQ encoder (G2) if no direct encoder replacement was performed?
 
 > **Answer:**  
-> In case of direct encoder replacement at the system on site, please proceed according to FAQ [89859023](https://support.industry.siemens.com/cs/document/89859023/simotics-s-brief-instructions-%e2%80%93-replacing-an-drive-cliq-encoder-(generation-2)?lc=en-de) 
+> In case of direct encoder replacement at the system on site, please proceed according to FAQ [89859023 :link:](https://support.industry.siemens.com/cs/document/89859023/simotics-s-brief-instructions-%e2%80%93-replacing-an-drive-cliq-encoder-(generation-2)?lc=en-de)
+{.is-info}
 
 
 ---
 
 
- **1\. Unambiguous identification of the encoder to be written:**
+ - :one: **Unambiguous identification of the encoder to be written:**
+   {.links-list}
+   
+. Insert the encoder in a free DRIVE-CLiQ port of the SINAMICS S120 drive system.
+. This is now assigned a component number larger than 200. The component number must be               identified, for example, 201.
+  
 
--         Insert the encoder in a free DRIVE-CLiQ port of the SINAMICS S120 drive system.
--         This is now assigned a component number larger than 200. The component number must be               identified, for example, 201.
+- :two: **Download the electronic motor data**
+  {.links-list}
 
-> **2\. Download the electronic motor data**
-
-·         You can download the electronic nameplate by entering the complete motor series number under  [www.siemens.com/simotics/download](http://www.siemens.com/simotics/download). You will obtain one or two.bin files.
+· You can download the electronic nameplate by entering the complete motor series number under  [www.siemens.com/simotics/download :link:](http://www.siemens.com/simotics/download). You will obtain one or two.bin files.
 
 - pasos :
 
-1- Introducir numero de serie.
-2- Seleccionar NMA Nuernberg.
+1. Introducir numero de serie.
+2. Seleccionar NMA Nuernberg.
 
 ![2022-01-19_09_50_00-window.png](/2022-01-19_09_50_00-window.png)
 
-3- Chequear los datos del Motor, Encoder y Sonda Temperatura.
-
+3. Chequear los datos del Motor, Encoder y Sonda Temperatura
+  
 ![2022-01-19_10_57_11-window.png](/2022-01-19_10_57_11-window.png)
 
 4- Descargar archivos .bin.
@@ -47,15 +51,18 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 ![2022-01-19_11_00_04-window.png](/2022-01-19_11_00_04-window.png)
 
 
-> **3\. Store motor files on the CF card**
-
+-  :three: **Store motor files on the CF card**
+   {.links-list}
+   
 ·         Create a folder in: user/sinamics/data/smi\_data\_man.
 
 ·         Then create a subfolder which corresponds to the component numner, for example, user/sinamics/data/smi\_data\_man/c201  (note lower cases!).
 
 ·         Store the downloaded file(s) in this folder.
 
-> **4\. Writing the encoder:**
+- :four: **Writing the encoder:**
+  {.links-list}
+
 
 ·         Set the passwort level required:  
           SINAMICS: Expert || SINUMERIK: manufacturer.
@@ -66,12 +73,14 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 
 ·         p4691 then changes to \[9\] “SMI data loaded and POWER ON required for component“.
 
-> **5\. Power OFF/ON**
+-   :five: **Power OFF/ON**
+    {.links-list}
 
 ·        POWER OFF / ON the system. The encoder is now programmed and can be inserted where it has been originally used.  
   
  
 
-> **6. Check the data in the DQ encoder**
+- :six: **Check the data in the DQ encoder**
+  {.links-list}
 
--   Set p0300 = 10100 to read out the electronic motor rating plate and check the values.
+.        Set p0300 = 10100 to read out the electronic motor rating plate and check the values.
