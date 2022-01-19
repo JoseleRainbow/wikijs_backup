@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T09:09:22.402Z
+date: 2022-01-19T09:52:47.578Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -18,10 +18,14 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 > **Answer:**  
 > In case of direct encoder replacement at the system on site, please proceed according to FAQ [89859023](https://support.industry.siemens.com/cs/document/89859023/simotics-s-brief-instructions-%e2%80%93-replacing-an-drive-cliq-encoder-(generation-2)?lc=en-de) 
 
-> **1\. Unambiguous identification of the encoder to be written:**
 
--    [_] ·         Insert the encoder in a free DRIVE-CLiQ port of the SINAMICS S120 drive system.
--   [ ] ·         This is now assigned a component number larger than 200. The component number must be identified, for example, 201.
+---
+
+
+ **1\. Unambiguous identification of the encoder to be written:**
+
+-         Insert the encoder in a free DRIVE-CLiQ port of the SINAMICS S120 drive system.
+-         This is now assigned a component number larger than 200. The component number must be               identified, for example, 201.
 
 > **2\. Download the electronic motor data**
 
