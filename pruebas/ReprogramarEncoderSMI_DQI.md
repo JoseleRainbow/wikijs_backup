@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T09:52:47.578Z
+date: 2022-01-19T10:01:58.566Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -31,7 +31,20 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
 
 ·         You can download the electronic nameplate by entering the complete motor series number under  [www.siemens.com/simotics/download](http://www.siemens.com/simotics/download). You will obtain one or two.bin files.
 
+- pasos :
 
+1- Introducir numero de serie.
+2- Seleccionar NMA Nuernberg.
+
+![2022-01-19_09_50_00-window.png](/2022-01-19_09_50_00-window.png)
+
+3- Chequear los datos del Motor, Encoder y Sonda Temperatura.
+
+![2022-01-19_10_57_11-window.png](/2022-01-19_10_57_11-window.png)
+
+4- Descargar archivos .bin.
+
+![2022-01-19_11_00_04-window.png](/2022-01-19_11_00_04-window.png)
 
 
 > **3\. Store motor files on the CF card**
