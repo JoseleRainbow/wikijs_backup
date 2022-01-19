@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T11:24:51.642Z
+date: 2022-01-19T11:33:44.355Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-19T08:57:49.204Z
 
 # **SIMOTICS S: Programming a new / deleted DRIVE-CLiQ encoder**
 
-This FAQ describes how to write motor data in a new or deleted DQI encoder.
+This [FAQ :link:](https://support.industry.siemens.com/cs/de/en/view/109479561) describes how to write motor data in a new or deleted DQI encoder.
 
 > **Question:**  
 > How can I reprogram an empty or deleted DRIVE-CLiQ encoder (G2) if no direct encoder replacement was performed?
