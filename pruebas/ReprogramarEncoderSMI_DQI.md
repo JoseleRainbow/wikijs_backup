@@ -2,7 +2,7 @@
 title: ReprogramarEncoderSMI_DQIge
 description: 
 published: true
-date: 2022-01-19T11:03:06.538Z
+date: 2022-01-19T11:10:13.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-19T08:57:49.204Z
@@ -56,9 +56,9 @@ This FAQ describes how to write motor data in a new or deleted DQI encoder.
    
 ·         Create a folder in: `user/sinamics/data/smi\_data\_man`.
 
-·         Then create a subfolder which corresponds to the component number, for example,  
+·         Then create a subfolder which corresponds to the component number, for example:
 
-          `user/sinamics/data/smi\_data\_man/c201`(note lower cases!).
+          user/sinamics/data/smi\_data\_man/c201(note lower cases!).
 
 ·         Store the downloaded file(s) in this folder.
 
